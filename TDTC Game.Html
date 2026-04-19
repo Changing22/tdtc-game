@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TDTC Battle</title>
+</head>
+<body style="text-align:center; background:black; color:white;">
+
+<h1>🎮 TDTC Battle</h1>
+<p>Score : <span id="score">0</span></p>
+
+<button onclick="tirer()">🔫 Tirer</button>
+
+<script>
+let score = 0;
+
+function tirer() {
+  score++;
+  document.getElementById("score").innerText = score;
+}
+</script>
+
+</body>
+</html>
